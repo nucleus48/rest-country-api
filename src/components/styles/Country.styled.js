@@ -28,4 +28,4 @@ export const StyledCountry = styled(StyledElement)`
   & > div > div > div > span {
     font-weight: 300;
   }
-`
+`;
