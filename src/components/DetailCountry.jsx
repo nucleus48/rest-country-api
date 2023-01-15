@@ -27,10 +27,10 @@ export default function DetailCountry({ data }) {
 					Top Level Domain: <span>{data.topLevelDomain}</span>
 				</div>
 				<div>
-					Currencies: <span>{data.currencies.map(curr => curr.code)}</span>
+					Currencies: <span>{data.currencies?.map(curr => curr.code)}</span>
 				</div>
 				<div>
-					Languages: <span>{data.languages.map(lag => lag.name)}</span>
+					Languages: <span>{data.languages?.map(lag => lag.name)}</span>
 				</div>
 			</div>
 			<div>
